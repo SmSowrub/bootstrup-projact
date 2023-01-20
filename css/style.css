@@ -1,0 +1,57 @@
+.banner-1{
+    background-image:url(../images/banner.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-2{
+    background: url(../images/wedding.png);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border-left{
+    border: none;
+    border-left: 5px solid  #3F87F5;
+    background-color: bisque;
+    color:  #505050;
+}
+#borders:hover{
+    background-color:darkcyan ;
+    color: bisque;
+}
+
+.carts{
+    color:blue ;
+    background-color: white;
+    border-radius: 20px;
+}
+.carts:hover{
+    color:azure;
+    background-color: #505050;
+}
+.buttonss{
+    background-color: red !important;
+    color: white !important;
+    font: bolder !important;
+    border-radius: 20px !important;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+.fa-check{
+    color: blue;
+    border: 1px solid darkgrey;
+    border-radius: 50%;
+}
+.fa-apple{
+    font-size: 30px;
+}
+.btn{
+    border:1px solid white ;
+}
+.unic{
+    color: white !important;
+}
+

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- fontawsome cdn-->
+    <script src="https://kit.fontawesome.com/86df0eb63d.js" crossorigin="anonymous"></script>
+    <!-- man css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <Header class="container">
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand text-primary fw-bold pt-2" href="#">Abacus Convention Center</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </Header>
+
+
+        <section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <div class="banner-1 d-flex justify-content-center align-items-end p-5 ">
+                           <div class="w-50 text-center m-3">
+                            <h1 class="text-white">The perfect venue for your next event</h1>
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iste distinctio, quasi doloremque debitis hic!</p>
+                            <button class="btn bg-white text-success">Book Now</button>
+                           </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="banner-2 d-flex justify-content-center align-items-end p-5">
+                        <div class="w-50 text-center m-3">
+                            <h1 class="text-white">The perfect venue for your next event</h1>
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iste distinctio, quasi doloremque debitis hic!</p>
+                            <button class="btn bg-white text-success">Book Now</button>
+                        </div>
+                    </div>
+                  </div>
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <main>
+            <section class="container">
+                <div class="row my-5">
+                    <div class="col-12 col-lg-6">
+                        <img src="./images/wedding.png" class="w-100" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex align-items-center ps-5">
+                        <div class="position-relative">
+                            <h2 class="text-black">Every moment is Precious </h2>
+                            <p class="text-dark">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <button class="btn btn-primary" type="button">Explore our album</button>
+                            <button class=" btn btn:hover position-absolute top-50 end-0 border-left d-flex align-items-center" id="borders"><img src="./icons/Vector.svg" class="px-2" alt=""> 20% off on next booking</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="container">
+                <h2 class="text-center my-5">Our package</h2>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="col">
+                                <div class="card-body">
+                                    <h3 class="text-success">$300</h3>
+                                  <h5 class="card-title text-success mb-3">Business fair</h5>
+                                  <p class="card-text text-secondary">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <ul class="text-secondary list-unstyled">
+                                    <li><i class="fa-solid fa-check"></i> limited space access</li>
+                                    <li><i class="fa-solid fa-check"></i> Secuirty facility</li>
+                                    <li><i class="fa-solid fa-check"></i> limited space access</li>
+                                    <li><i class="fa-solid fa-check"></i> Decoration design</li>
+                                    <li><i class="fa-solid fa-check"></i> Per day bill</li>
+                                  </ul>
+                              </div>
+                              <div class="card-footer d-flex justify-content-center">
+                                <button class="btn btn-outline-primary">Choose plan</button>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                                <div class="card-body">
+                                    <h3 class="text-success">$300</h3>
+                                  <h5 class="card-title text-success mb-3">Business fair</h5>
+                                  <p class="card-text text-secondary">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <ul class="text-secondary list-unstyled">
+                                    <li><i class="fa-solid fa-check"></i> limited space access</li>
+                                    <li><i class="fa-solid fa-check"></i> Secuirty facility</li>
+                                    <li><i class="fa-solid fa-check"></i> limited space access</li>
+                                    <li><i class="fa-solid fa-check"></i> Decoration design</li>
+                                    <li><i class="fa-solid fa-check"></i> Per day bill</li>
+                                  </ul>
+                              </div>
+                              <div class="card-footer d-flex justify-content-center">
+                                <button class="btn btn-outline-primary">Choose plan</button>
+                              </div>
+                        </div>
+
+
+               
+                    <div class="col bg-primary rounded text-white py-3 position-relative shadow-lg">
+                        <div class="card-body ">
+                            <h3 class="">$800</h3>
+                          <h5 class="card-title  mb-3">Business fair</h5>
+                          <p class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <ul class=" list-unstyled">
+                            <li><i class="fa-solid fa-check unic"></i> limited space access</li>
+                            <li><i class="fa-solid fa-check unic"></i> Secuirty facility</li>
+                            <li><i class="fa-solid fa-check unic"></i> limited space access</li>
+                            <li><i class="fa-solid fa-check unic"></i> Decoration design</li>
+                            <li><i class="fa-solid fa-check unic"></i> Per day bill</li>
+                          </ul>
+                      </div>
+                      <div class="card-footer d-flex justify-content-center">
+                        <button class="btn px-5 carts">Choose plan</button>
+                      </div>
+                      <button class="btn position-absolute top-0 end-0 buttonss">hot</button>
+                    </div>
+                
+                 
+                    <div class="col">
+                        <div class="card-body">
+                            <h3 class="text-success">$300</h3>
+                          <h5 class="card-title text-success mb-3">Business fair</h5>
+                          <p class="card-text text-secondary">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <ul class="text-secondary list-unstyled">
+                            <li><i class="fa-solid fa-check"></i> limited space access</li>
+                            <li><i class="fa-solid fa-check"></i> Secuirty facility</li>
+                            <li><i class="fa-solid fa-check"></i> limited space access</li>
+                            <li><i class="fa-solid fa-check"></i> Decoration design</li>
+                            <li><i class="fa-solid fa-check"></i> Per day bill</li>
+                          </ul>
+                      </div>
+                      <div class="card-footer d-flex justify-content-center mt-4">
+                        <button class="btn btn-outline-primary">Choose plan</button>
+                      </div>
+                    </div>
+                </div>         
+            </section>
+
+            <section class="container">
+              <h2 class="text-center my-5">Happy Clients says</h2>
+
+              <div class="row row-cols-1 row-cols-md-4 g-4 d-flex justify-content-between">
+                <div class="col shadow">
+                  <div class="card h-100">
+                    
+                    <div class="card-body">
+                      <p class="card-text text-center mx-auto w-75 text-secondary">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                    </div>
+                    <img src="./images/person 1.png" class="card-img-top w-25 mx-auto" alt="...">
+                    <p class="card-title text-center my-2 fw-bold">Cret Yater</p>
+                    <small class="text-center text-secondary">Bankar</small>
+                  </div>
+                </div>
+                <div class="col shadow">
+                  <div class="card h-100">
+                    
+                    <div class="card-body">
+                      <p class="card-text text-center mx-auto w-75 text-secondary">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                    </div>
+                    <img src="./images/person 1.png" class="card-img-top w-25 mx-auto" alt="...">
+                    <p class="card-title text-center my-2 fw-bold">Cret Yater</p>
+                    <small class="text-center text-secondary">Bankar</small>
+                  </div>
+                </div>
+                <div class="col shadow">
+                  <div class="card h-100">
+                    
+                    <div class="card-body">
+                      <p class="card-text text-center mx-auto w-75 text-secondary">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                    </div>
+                    <img src="./images/person 1.png" class="card-img-top w-25 mx-auto" alt="...">
+                    <p class="card-title text-center my-2 fw-bold">Cret Yater</p>
+                    <small class="text-center text-secondary">Bankar</small>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+            <section class="container">
+              <h2 class="text-center my-5">Frequently Asked Questions</h2>
+
+              <div class="row">
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                  <!-- <div>
+                    <p class="fw-bold">What’s the difference between event design and event planning? </p>
+                    <p class="text-secondary">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</p>
+                  </div> -->
+                 <div>
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          How early do we need to start planning an event
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-secondary">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          What is your refund and cancellation policy?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-secondary">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          How do you keep budgets on track?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-secondary">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingfour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapsefour">
+                          What’s the difference between event design and event planning?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-secondary">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-12 col-lg-6 w-100">
+                  <img src="./images/people.png" class=" p-2 w-100" alt="">
+                </div>
+              </div>
+            </section>
+        </main>
+         
+    <footer class="text-bg-dark">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <p>© 2020 bike. All rights reserved</p>
+          </div>
+          <div class="col-12 col-lg-6 d-flex justify-content-end flex-column-reverse">
+           <div">
+            <h3 class=" h-3 mb-4">Get the App</h3>
+            <button class=" btn btn-dark rounded my-2 d-flex justify-content-center align-items-center ">
+              <i class="fa-brands fa-apple mx-3"></i>
+              <div><small>Downlode on the</small>
+                <h5>App Store</h5></div>
+            </button>
+            <br>
+            <button class=" btn btn-dark rounded my-3 d-flex justify-content-center align-items-center ">
+              <i class="fa-brands fa-apple mx-3"></i>
+              <div><small>git on google play</small>
+                <h5>Google Play</h5></div>
+            </button>
+           </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- js bootstrap -->
+    <script src="./bootstrap.min.js"></script>
+</body>
+</html>
